@@ -14,8 +14,6 @@ University of South Carolina
 
 - [Usage](#Usage)
 
-- [Pretrained Models](#Pretrained-models)
-
 - [Performance](#Performance)
 
 - [Acknowledgement](#Acknowledgement)
@@ -47,10 +45,6 @@ pip install -r requirements.txt
 ### Training
 
 ### Predict
-
-
-## Pretrained Models
-Our trained models can be downloaded from figshare [BERTOS models](https://figshare.com/articles/online_resource/BERTOS_model/21554823), and you can use it as a test or prediction model.
 
 
 ## Performance
