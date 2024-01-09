@@ -20,11 +20,12 @@ University of South Carolina
 
 ## Installations
 
-0. Set up virtual environment
+0. Set up a virtual environment.
 ```
 conda create -n dssl
 conda activate dssl
 ```
+Our code is tested on Python 3.7.
 
 1. **PyTorch**
 Our code is tested on Pytorch 1.8.1 with cuda 11.1. Use the following command to install (or you can also install the other version using the command from the PyTorch website):
