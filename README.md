@@ -50,17 +50,17 @@ pip install -r requirements.txt
 ## Datasets  
 | Datasets  | Description | Property | Sample No.|
 | :---: | :---: | :---: | :---: | 
-|  MP  | Pretraining  | - | 138, 614|
+|  [MP](https://next-gen.materialsproject.org/)  | Pretraining  | - | 138, 614|
 |  HOIP  | finetuning  | Band Gap (eV) | 1,345|
 |  Lanthanides  | finetuning  | Formation Energ (eV/atom) | 4,166 | 
 |  Fermi Energy  | finetuning  | Fermi Energy (eV) | 26,447 |
 |  Formation Energy  | finetuning  | Formation Energy (eV/atom) | 26,741 |
 |  Band Gap  | finetuning  | Band Gap (eV) | 27,110 |
-|  JDFT2D  | finetuning  | Exfoliation Energy (meV/atom) | 636 |
-|  Phonons  | finetuning  | Last Phdos Peak (1/cm) | 1,265 |
-|  Dielectric  | finetuning  | Refractive Index (no unit) | 4,764 |
-|  GVRH  | finetuning  | Shear Modulus (GPa)  | 10,987 |
-|  KVRH  | finetuning  | Bulk Modulus (GPa) | 10,987|
+|  [JDFT2D](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)  | finetuning  | Exfoliation Energy (meV/atom) | 636 |
+|  [Phonons](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)  | finetuning  | Last Phdos Peak (1/cm) | 1,265 |
+|  [Dielectric](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)  | finetuning  | Refractive Index (no unit) | 4,764 |
+|  [GVRH](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)  | finetuning  | Shear Modulus (GPa)  | 10,987 |
+|  [KVRH](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)  | finetuning  | Bulk Modulus (GPa) | 10,987|
 
 ## Usage
 ### A Quick Run
