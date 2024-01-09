@@ -49,18 +49,18 @@ pip install -r requirements.txt
 
 ## Datasets  
 | Datasets  | Description | Property | Sample No.|
-| ------------- | ------------- | ------------- | ------------- | 
-|  MP  | Pretraining data | - | 138, 614|
-|  HOIP  | finetuning data | Band Gap (eV) | 1,345|
-|  Lanthanides  | finetuning data | Formation Energ (eV/atom) | 4,166 | 
-|  Fermi Energy  | finetuning data | Fermi Energy (eV) | 26,447 |
-|  Formation Energy  | finetuning data | Formation Energy (eV/atom) | 26,741 |
-|  Band Gap  | finetuning data | Band Gap (eV) | 27,110 |
-|  JDFT2D  | finetuning data | Exfoliation Energy (meV/atom) | 636 |
-|  Phonons  | finetuning data | Last Phdos Peak (1/cm) | 1,265 |
-|  Dielectric  | finetuning data | Refractive Index (no unit) | 4,764 |
-|  GVRH  | finetuning data | Shear Modulus (GPa)  | 10,987 |
-|  KVRH  | finetuning data | Bulk Modulus (GPa) | 10,987|
+| :---: | :---: | :---: | :---: | 
+|  MP  | Pretraining  | - | 138, 614|
+|  HOIP  | finetuning  | Band Gap (eV) | 1,345|
+|  Lanthanides  | finetuning  | Formation Energ (eV/atom) | 4,166 | 
+|  Fermi Energy  | finetuning  | Fermi Energy (eV) | 26,447 |
+|  Formation Energy  | finetuning  | Formation Energy (eV/atom) | 26,741 |
+|  Band Gap  | finetuning  | Band Gap (eV) | 27,110 |
+|  JDFT2D  | finetuning  | Exfoliation Energy (meV/atom) | 636 |
+|  Phonons  | finetuning  | Last Phdos Peak (1/cm) | 1,265 |
+|  Dielectric  | finetuning  | Refractive Index (no unit) | 4,764 |
+|  GVRH  | finetuning  | Shear Modulus (GPa)  | 10,987 |
+|  KVRH  | finetuning  | Bulk Modulus (GPa) | 10,987|
 
 ## Usage
 ### A Quick Run
