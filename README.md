@@ -65,10 +65,30 @@ pip install -r requirements.txt
 ## Usage
 ### A Quick Run
 
-### Training
-
+### Pretraining
+* Run the following command for DSSL pretraining.
+```
+python main.py --data_path='$YOUR DATA PATH$'  --run_mode='Training'  --dropout_rate='0.3'
+```
+* Run the following command for DSSL + Micro pretraining
+```
+python main.py --data_path='$YOUR DATA PATH$'  --run_mode='Training' --microp='$AS or VE$'  --dropout_rate='0.3'
+```
+### Finetuning
+* Run the following command for multiple repeated finetune
+```
+python main.py --data_path='$YOUR DATA PATH$'   --run_mode='Finetune'  
+```
+* Run the following command for cross-validation finetune
+```
+python main.py --data_path='$YOUR DATA PATH$'   --run_mode='CV'  --input_model_file='$YOUR PRETRAINED MODEL$' 
+```  
+  
 ### Predict
-
+* Run the following command for property predictions of new material datasets.
+```
+python main.py --data_path='$YOUR DATA PATH$'   --run_mode='Predict'  
+```
 
 ## Performance
 ![Performance](performances.png)
@@ -88,5 +108,5 @@ We use DeeperGATGNN as the backbone.
 
 
 # Contact
-If you have any problem using BERTOS, feel free to contact via [funihang@gmail.com](mailto:funihang@gmail.com).
+If you have any problem using BERTOS, feel free to contact me via [funihang@gmail.com](mailto:funihang@gmail.com).
 
