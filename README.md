@@ -5,7 +5,7 @@ Code repository for our paper: Physics-guided Dual Self-supervised Learning for 
 Department of Computer Science and Engineering <br>
 University of South Carolina
 
-[framework](./figures/framework.pdf)
+![framework](./figures/framework.pdf)
 
 Within DSSL, we employ DeeperGATGNN as the backbone. The pretraining stage trains DeeperGATGNN on an unlabeled database using self-supervised learning methods, and the subsequent finetuning follows the training of the original DeeperGATGNN on various labeled datasets but DeeperGATGNN part with shared weights from the pretraining stage.
 ## Table of Contents
@@ -113,9 +113,8 @@ python main.py --data_path='./datasets/test_data/test'   --run_mode='Predict'
 ```
 
 ## Performance
-[Performance1](./figures/perform1.png)
-
-[Performance2](./figures/perform2.png)
+![Performance1](./figures/perform1.png)
+![Performance2](./figures/perform2.png)
 
 ## Acknowledgement
 We use DeeperGATGNN as the backbone.
