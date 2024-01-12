@@ -19,8 +19,6 @@ Within DSSL, we employ DeeperGATGNN as the backbone. The pretraining stage train
 
 - [Acknowledgement](#Acknowledgement)
 
-- [Cite our work](#Cite our work)
-
 ## Installations
 
 0. Set up a virtual environment using the following commands.
