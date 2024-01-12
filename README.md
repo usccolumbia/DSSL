@@ -42,7 +42,7 @@ pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-${TORCH
 pip install torch-geometric
 ```
 
-3. Other packagess
+3. Other packages
 ```
 pip install -r requirements.txt
 ```  
@@ -63,13 +63,11 @@ pip install -r requirements.txt
 |  [KVRH](https://matbench.materialsproject.org/Benchmark%20Info/matbench_v0.1/)  | finetuning  | Bulk Modulus (GPa) | 10,987|
 
 ## Usage
-### A Quick Run
-
 ### Pretraining
 * Run the following command for DSSL pretraining.
 ```
 python main.py --data_path='$YOUR DATA PATH$'  --run_mode='Training'  --dropout_rate='0.3'
-```
+``` 
 * Run the following command for DSSL + Micro pretraining
 ```
 python main.py --data_path='$YOUR DATA PATH$'  --run_mode='Training' --microp='$AS or VE$'  --dropout_rate='0.3'
@@ -88,6 +86,29 @@ python main.py --data_path='$YOUR DATA PATH$'   --run_mode='CV'  --input_model_f
 * Run the following command for property predictions of new material datasets.
 ```
 python main.py --data_path='$YOUR DATA PATH$'   --run_mode='Predict'  
+```
+### Examples
+Unzip `test_data.zip` under the `datasets` folder (it only can be used to test whether your code can run or not. Do not use it to train the model).
+* DSSL pretraining.
+```
+python main.py --data_path='./datasets/test_data/train'  --run_mode='Training'  --dropout_rate='0.3'
+``` 
+* DSSL + Micro pretraining
+```
+python main.py --data_path='./datasets/test_data/train'  --run_mode='Training' --microp='AS'  --dropout_rate='0.3'
+python main.py --data_path='./datasets/test_data/train'  --run_mode='Training' --microp='VE'  --dropout_rate='0.3'
+```
+* Multiple repeated finetune
+```
+python main.py --data_path='./datasets/test_data/'   --run_mode='Finetune'  --input_model_file='my_model.pth' 
+```
+* Cross-validation finetune
+```
+python main.py --data_path='./datasets/test_data/train'   --run_mode='CV'  --input_model_file='my_model.pth' 
+```
+* Predict
+```
+python main.py --data_path='./datasets/test_data/test'   --run_mode='Predict'  
 ```
 
 ## Performance
