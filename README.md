@@ -1,12 +1,10 @@
 # DSSL
-Physics guided dual self-supervised learning for materials property prediction
+Code repository for our paper: Physics-guided Dual Self-supervised Learning for Materials Property Prediction
 
-Nihang Fu, Lai Wei, and Jianjun Hu* <br>
-
-Machine Learning and Evolution Laboratory <br>
+[Machine Learning and Evolution Laboratory](http://mleg.cse.sc.edu/),<br>
 Department of Computer Science and Engineering <br>
 University of South Carolina
-![](framework.pdf)
+![framework](framework.pdf)
 ## Table of Contents
 - [Installations](#Installations)
 
@@ -112,7 +110,8 @@ python main.py --data_path='./datasets/test_data/test'   --run_mode='Predict'
 ```
 
 ## Performance
-![Performance](performances.png)
+![Performance1](perform1.png)
+![Performance2](perform2.png)
 
 ## Acknowledgement
 We use DeeperGATGNN as the backbone.
