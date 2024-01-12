@@ -129,7 +129,7 @@ We use DeeperGATGNN as the backbone.
 }
 ```
 
-## Cite our work
+## Cite<br>our<br>work
 
 
 # Contact
