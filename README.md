@@ -15,8 +15,6 @@ Within DSSL, we employ DeeperGATGNN as the backbone. The pretraining stage train
 
 - [Usage](#Usage)
 
-- [Performance](#Performance)
-
 - [Acknowledgement](#Acknowledgement)
 
 - [Cite our work](#Cite%20our%20work)
@@ -113,10 +111,6 @@ python main.py --data_path='./datasets/test_data/train'   --run_mode='CV'  --inp
 ```
 python main.py --data_path='./datasets/test_data/test'   --run_mode='Predict'  
 ```
-
-## Performance
-![Performance1](./figures/perform1.png)
-![Performance2](./figures/perform2.png)
 
 ## Acknowledgement
 We use DeeperGATGNN as the backbone.
