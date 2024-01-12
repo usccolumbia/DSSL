@@ -77,7 +77,7 @@ python main.py --data_path='$YOUR DATA PATH$'  --run_mode='Training' --microp='$
 ### Finetuning
 * Run the following command for multiple repeated finetune
 ```
-python main.py --data_path='$YOUR DATA PATH$'   --run_mode='Finetune'  
+python main.py --data_path='$YOUR DATA PATH$'   --run_mode='Finetune'  --input_model_file='$YOUR PRETRAINED MODEL$' 
 ```
 * Run the following command for cross-validation finetune
 ```
