@@ -6,7 +6,7 @@ Nihang Fu, Lai Wei, and Jianjun Hu* <br>
 Machine Learning and Evolution Laboratory <br>
 Department of Computer Science and Engineering <br>
 University of South Carolina
-
+![](framework.pdf)
 ## Table of Contents
 - [Installations](#Installations)
 
@@ -88,7 +88,7 @@ python main.py --data_path='$YOUR DATA PATH$'   --run_mode='CV'  --input_model_f
 python main.py --data_path='$YOUR DATA PATH$'   --run_mode='Predict'  
 ```
 ### Examples
-Unzip `test_data.zip` under the `datasets` folder (it only can be used to test whether your code can run or not. Do not use it to train the model).
+Extract the contents of 'test_data.zip' into the `datasets` folder. Note that this toy data is intended only for testing the functionality of your code and should not be utilized for model training purposes.
 * DSSL pretraining.
 ```
 python main.py --data_path='./datasets/test_data/train'  --run_mode='Training'  --dropout_rate='0.3'
