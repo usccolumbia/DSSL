@@ -19,7 +19,7 @@ Within DSSL, we employ DeeperGATGNN as the backbone. The pretraining stage train
 
 - [Acknowledgement](#Acknowledgement)
 
-- [Cite our work](#Cite&#32;our&#32;work)
+- [Cite our work](#Cite%20our%20work)
 
 ## Installations
 
