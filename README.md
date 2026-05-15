@@ -127,5 +127,5 @@ We use DeeperGATGNN as the backbone.
 
 
 # Contact
-If you have any problem using BERTOS, feel free to contact me via [funihang@gmail.com](mailto:funihang@gmail.com).
+If you have any problem using DSSL, feel free to contact me via [funihang@gmail.com](mailto:funihang@gmail.com).
 
