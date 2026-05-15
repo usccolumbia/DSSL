@@ -124,7 +124,18 @@ We use DeeperGATGNN as the backbone.
 ```
 
 ## Cite our work
-
+```
+@article{fu2024physics,
+  title={Physics-guided dual self-supervised learning for structure-based material property prediction},
+  author={Fu, Nihang and Wei, Lai and Hu, Jianjun},
+  journal={The Journal of Physical Chemistry Letters},
+  volume={15},
+  number={10},
+  pages={2841--2850},
+  year={2024},
+  publisher={ACS Publications}
+}
+```
 
 # Contact
 If you have any problem using DSSL, feel free to contact me via [funihang@gmail.com](mailto:funihang@gmail.com).
